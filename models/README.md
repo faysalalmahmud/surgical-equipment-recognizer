@@ -1,5 +1,5 @@
-Get trained and exported models here: https://drive.google.com/drive/folders/1Biiu4NFmNdYLKzJb0ttV9xLXsOiqHbX7?usp=share_link
+Get trained and exported models here: https://drive.google.com/drive/folders/1gXOQL519l_5PTRz9lBTs1ITcIgN3RFql?usp=sharing
 
 Files ending with .pkl are exported files
 
-[] is the final deployed model.
+**surgical_equipment_recognizer_model_v2.pkl** is the final deployed model.
