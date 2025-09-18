@@ -1,6 +1,6 @@
 # Surgical Equipment Recognizer
 
-An AI-powered tool that can identify and classify 20 different types of surgical equipment using deep learning. Built with FastAI and deployed on Hugging Face Spaces.
+An AI-powered tool that can identify and classify 20 different types of surgical equipment using deep learning. Built with FastAI and deployed Gradio App on Hugging Face Spaces.
 
 ![Surgical Equipment Recognition Demo](https://img.shields.io/badge/Status-Live-brightgreen)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/faysalalmahmud/surgical-equipment-recognizer)
@@ -37,16 +37,20 @@ The model can identify the following 20 surgical instruments:
 | **Bovie (Electrosurgical Unit)** | Electrocautery device |
 | **Laparoscope** | Camera for minimally invasive surgery |
 
-## 🚀 Live Demo
+## 🚀 Live Application
 
-- **🌐 Web App**: [GitHub Pages Demo](https://faysalalmahmud.github.io/surgical-equipment-recognizer/)
-- **🤗 Hugging Face**: [Interactive Demo](https://huggingface.co/spaces/faysalalmahmud/surgical-equipment-recognizer)
+- **🌐 Web App**: [GitHub Pages](https://faysalalmahmud.github.io/surgical-equipment-recognizer/)
+- **🤗 Hugging Face**: [Interactive Gradio App](https://huggingface.co/spaces/faysalalmahmud/surgical-equipment-recognizer)
 
-### Demo Screenshot
+### Application Screenshot
+<img src="docs/github_pages.png" width=500>
+<i>The GitHub Pages application successfully identifying a Rongeur with 97.72% confidence</i>
+<br> 
+<br>
+<br>
+<img src="deployment/gradio_app.png" width=500>
+<i>The HuggingFace space's Gradio application successfully identifying an Allis Clamp with 69% confidence</i>
 
-![Demo Screenshot](https://github.com/faysalalmahmud/surgical-equipment-recognizer/deployment/gradio_app.png)
-
-*The application successfully identifying a Rongeur with 97.72% confidence*
 
 ## 🛠️ Technical Implementation
 
@@ -105,7 +109,7 @@ python app.py
 
 ### Using the Web Interface
 
-1. Visit the [live demo](https://faysalalmahmud.github.io/surgical-equipment-recognizer/)
+1. Visit the [live app](https://faysalalmahmud.github.io/surgical-equipment-recognizer/)
 2. Upload an image of surgical equipment
 3. Get instant predictions with confidence scores
 
@@ -227,11 +231,12 @@ Contributions are welcome! Please feel free to:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
 - **FastAI** for the amazing deep learning framework
+- **Gradio** for the intuitive interface and seamless deployment experience
 - **Hugging Face** for the deployment platform
 - **DuckDuckGo** for image search API
 - **Medical community** for inspiration and domain knowledge
@@ -240,6 +245,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Faysal Al Mahmud**
 - GitHub: [@faysalalmahmud](https://github.com/faysalalmahmud)
+- LinkedIn: [@faysalalmahmud](https://www.linkedin.com/in/faysalalmahmud/)
 - Project Link: [https://github.com/faysalalmahmud/surgical-equipment-recognizer](https://github.com/faysalalmahmud/surgical-equipment-recognizer)
 
 ---
