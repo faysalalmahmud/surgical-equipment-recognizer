@@ -177,29 +177,6 @@ surgical-equipment-recognizer/
 │   ├── surgical_equipment_recognizer_model_v1_2.pkl
 │   └── surgical_equipment_recognizer_model_v2.pkl     #Final deployed model
 │
-├── 📁 notebooks/              # Training notebooks
-│   ├── data_prep.ipynb        # Data preparation
-│   ├── inference.ipynb        # Model inference
-│   └── training_&_data_cleaning.ipynb  # Training process
-|
-├── 📁 deployment/
-│   ├── app.py                  # Gradio application
-│   ├── download.jpeg           # Sample image
-│   ├── gradio_app.png         # App screenshot
-│   ├── images.png             # Images reference
-│   ├── README.md
-│   └── requirements.txt       # Python dependencies
-│
-├── 📁 docs/                   # GitHub Pages files
-│   ├── index.html            # Web interface
-│   └── script.js             # JavaScript functionality
-│
-├── 📁 models/                 # Trained models
-│   ├── README.md
-│   ├── surgical_equipment_recognizer_model_v1_1.pkl
-│   ├── surgical_equipment_recognizer_model_v1_2.pkl
-│   └── surgical_equipment_recognizer_model_v2.pkl
-│
 └── 📁 notebooks/              # Training notebooks
     ├── data_prep.ipynb        # Data preparation
     ├── inference.ipynb        # Model inference
