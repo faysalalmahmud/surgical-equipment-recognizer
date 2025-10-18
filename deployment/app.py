@@ -33,12 +33,19 @@ def recognize_image(image):
         return {"error": str(e)}
 
 # Create Gradio interface
-iface = gr.Interface(
+iface = gr.Interface (
     fn=recognize_image,
     inputs=gr.Image(type="pil"),  # Explicitly specify PIL format
-    outputs=gr.Label(),
+    outputs=gr.Label(num_top_classes = 5),
     title="Surgical Equipment Recognizer",
-    description="Upload an image of a surgical instrument to see what the model predicts."
+    description="Upload an image of a surgical instrument to see what the model predicts.",
+    examples=[["example_images/image1.jpeg"],
+              ["example_images/image2.jpeg"],
+              ["example_images/image3.jpeg"],
+              ["example_images/image4.jpeg"],
+              ["example_images/image5.jpeg"],
+              ["example_images/image6.jpeg"]
+            ]
 )
 
 if __name__ == "__main__":
