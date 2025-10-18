@@ -109,7 +109,7 @@ The final DenseNet121 model achieved the best results among the models tested af
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/faysalalmahmud/surgical-equipment-recognizer.git](https://github.com/faysalalmahmud/surgical-equipment-recognizer.git)
+    git clone https://github.com/faysalalmahmud/surgical-equipment-recognizer.git
     cd surgical-equipment-recognizer
     ```
 
