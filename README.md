@@ -45,12 +45,12 @@ The model can identify the following 20 surgical instruments:
 ### Application Screenshot
 
 <img src="docs/github_pages.png" width=500><br>
-<i>The GitHub Pages application successfully identifying a Rongeur with 97.72% confidence</i>
+<i>The GitHub Pages application successfully identifying a Surgical Towel Clamp with 95.66% confidence</i>
 
 <br>
 
 <img src="deployment/gradio_app.png" width=500><br>
-<i>The HuggingFace space's Gradio application successfully identifying an Allis Clamp with 69% confidence</i>
+<i>The HuggingFace space's Gradio application successfully identifying a Forceps (DeBakey) with 98% confidence</i>
 
 ## 🛠️ Technical Implementation
 
