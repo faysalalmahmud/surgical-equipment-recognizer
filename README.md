@@ -87,13 +87,13 @@ The model can identify the following 20 surgical instruments:
 
 ### Model Benchmarks
 
-Here is a comparison of the model accuracies before (v0) and after (v1) data cleaning.
+Here is a comparison of the model accuracies.
 
-| Model Name      | V0 (Before Data Cleaning) | V1 (After Data Cleaning) |
+| Model Name      | Accuracy | Average time per Epoch | 
 | :-------------- | :------------------------ | :----------------------- |
-| ResNet50        | 85%                       | 83%                      |
-| EfficientNet-b1 | 77%                       | 81%                      |
-| DenseNet121     | 88%                       | **86%**                  |
+| ResNet50        | 83%                       | 2:24                     |
+| EfficientNet-b1 | 81%                       | 2:20                     |
+| DenseNet121     | **86%**                       | 2:24                  |
 
 The final DenseNet121 model achieved the best results among the models tested after data cleaning:
 
