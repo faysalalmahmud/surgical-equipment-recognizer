@@ -191,10 +191,7 @@ surgical-equipment-recognizer/
 │   └── script.js                  # JavaScript functionality
 │
 ├── 📁 models/                     # Trained models
-│   ├── README.md
-│   ├── surgical_equipment_recognizer_model_v1_1.pkl
-│   ├── surgical_equipment_recognizer_model_v1_2.pkl
-│   └── surgical_equipment_recognizer_model_v2.pkl     #Final deployed model
+│   └── README.md
 │
 └── 📁 notebooks/                 # Training notebooks
     ├── data_prep.ipynb            # Data preparation
