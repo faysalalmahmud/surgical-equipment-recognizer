@@ -175,13 +175,11 @@ surgical-equipment-recognizer/
 ├── 📁 dataloaders/              # Data loaders
 │   ├── README.md
 │   ├── surgical_equipment_dataloader_v0.pkl
-│   ├── surgical_equipment_dataloader_v1.pkl
-│   └── surgical_equipment_dataloader_v2.pkl
+│   └── surgical_equipment_dataloader_v1.pkl
 │
 ├── 📁 deployment/                # Deployment files
 │   ├── app.py                     # Gradio application
 │   ├── gradio_app.png             # App screenshot
-│   ├── images.png                 # Images reference
 │   ├── README.md
 │   ├── requirements.txt           # Python dependencies
 │   ├── test_image.jpeg            # Test image
