@@ -182,10 +182,11 @@ surgical-equipment-recognizer/
 │   ├── gradio_app.png             # App screenshot
 │   ├── README.md
 │   ├── requirements.txt           # Python dependencies
-│   ├── test_image.jpeg            # Test image
-│   └── test_image2.jpg            # Test image 2
+│   ├── example_images           # Example images folder
+|   └── surgical_equipment_recognizer_model_v1.pkl        #Deployed Densenet121 model
 │
 ├── 📁 docs/                      # GitHub Pages files
+|   ├── background.png             # Background imgae used on  github pages 
 │   ├── github_pages.png           # GitHub Pages screenshot
 │   ├── index.html                 # Web interface
 │   └── script.js                  # JavaScript functionality
@@ -193,7 +194,7 @@ surgical-equipment-recognizer/
 ├── 📁 models/                     # Trained models
 │   └── README.md
 │
-└── 📁 notebooks/                 # Training notebooks
+└── 📁 notebooks/                 # Data Preperation, Model Training & Inference notebooks
     ├── data_prep.ipynb            # Data preparation
     ├── inference.ipynb            # Model inference
     └── training_&_data_cleaning.ipynb # Training process
