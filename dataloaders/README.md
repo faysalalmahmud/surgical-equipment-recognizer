@@ -5,9 +5,7 @@ This directory contains the preprocessed FastAI data loaders for the Surgical Eq
 ## 📁 Available Data Loaders
 
 - `surgical_equipment_dataloader_v0.pkl` - Initial data loader with raw collected images
-- `surgical_equipment_dataloader_v1.pkl` - After first round of data cleaning and filtering
-- `surgical_equipment_dataloader_v2.pkl` - Final cleaned version used for model training
-
+- `surgical_equipment_dataloader_v1.pkl` - After data cleaning and filtering
 
 ## 🛠️ Usage
 
@@ -18,13 +16,12 @@ from fastai.vision.all import *
 import pickle
 
 # Load the final cleaned version
-with open('dataloaders/surgical_equipment_dataloader_v2.pkl', 'rb') as f:
+with open('dataloaders/surgical_equipment_dataloader_v1.pkl', 'rb') as f:
     dls = pickle.load(f)
 
 # Ready for training
-learn = vision_learner(dls, resnet34, metrics=accuracy)
+model = vision_learner(dls, densenet121, metrics=[error_rate, accuracy])
 ```
-
 
 ## 🔗 Related Files
 
@@ -34,4 +31,4 @@ learn = vision_learner(dls, resnet34, metrics=accuracy)
 
 ---
 
-**Recommendation**: Use `surgical_equipment_dataloader_v2.pkl` for training and inference as it contains the highest quality, manually cleaned dataset.
+**Recommendation**: Use `surgical_equipment_dataloader_v1.pkl` for training and inference as it contains the highest quality, manually cleaned dataset.
