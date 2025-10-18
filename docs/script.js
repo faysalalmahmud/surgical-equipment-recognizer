@@ -8,7 +8,6 @@ const imagePreview = document.getElementById('imagePreview');
 const imagePreviewContainer = document.getElementById('imagePreviewContainer');
 const resultsDiv = document.getElementById('results');
 const loadingSpinner = document.getElementById('loading');
-
 const toggleAboutButton = document.getElementById('toggleAboutButton');
 const aboutContent = document.getElementById('aboutContent');
 
@@ -99,11 +98,11 @@ function showResults(message, colorClass = 'text-gray-700') {
     resultsDiv.classList.add(colorClass);
 
     if (colorClass.includes('red')) {
-         resultsDiv.classList.add('bg-red-50');
+        resultsDiv.classList.add('bg-red-50');
     } else if (colorClass.includes('green')) {
         resultsDiv.classList.add('bg-green-50');
     } else {
-         resultsDiv.classList.add('bg-gray-100');
+        resultsDiv.classList.add('bg-gray-100');
     }
 }
 
