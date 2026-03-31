@@ -93,11 +93,11 @@ Here is a comparison of the model accuracies.
 | :-------------- | :------------------------ | :----------------------- |
 | ResNet50        | 83%                       | 2:24                     |
 | EfficientNet-b1 | 81%                       | 2:20                     |
-| DenseNet121     | **86%**                       | 2:24                  |
+| DenseNet121     | **88%**                       | 2:24                  |
 
 The final DenseNet121 model achieved the best results among the models tested after data cleaning:
 
-- **Overall Accuracy**: 86%
+- **Overall Accuracy**: 88%
 - High accuracy across all 20 equipment categories
 - Robust performance on real-world surgical equipment images
 - Fast inference time suitable for real-time applications
